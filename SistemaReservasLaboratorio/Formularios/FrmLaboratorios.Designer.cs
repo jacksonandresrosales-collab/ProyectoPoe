@@ -53,9 +53,10 @@
             this.lblTitulo.AutoSize = true;
             this.lblTitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.lblTitulo.ForeColor = System.Drawing.Color.DarkBlue;
-            this.lblTitulo.Location = new System.Drawing.Point(46, 22);
+            this.lblTitulo.Location = new System.Drawing.Point(31, 14);
+            this.lblTitulo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(249, 20);
+            this.lblTitulo.Size = new System.Drawing.Size(160, 13);
             this.lblTitulo.TabIndex = 0;
             this.lblTitulo.Text = "GESTIÓN DE LABORATORIOS";
             // 
@@ -68,9 +69,11 @@
             this.grpDatos.Controls.Add(this.LblCapacidad);
             this.grpDatos.Controls.Add(this.txtNombre);
             this.grpDatos.Controls.Add(this.LblNombre);
-            this.grpDatos.Location = new System.Drawing.Point(12, 56);
+            this.grpDatos.Location = new System.Drawing.Point(8, 36);
+            this.grpDatos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.grpDatos.Name = "grpDatos";
-            this.grpDatos.Size = new System.Drawing.Size(497, 162);
+            this.grpDatos.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grpDatos.Size = new System.Drawing.Size(331, 105);
             this.grpDatos.TabIndex = 1;
             this.grpDatos.TabStop = false;
             this.grpDatos.Text = "Datos del Laboratorio ";
@@ -78,9 +81,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(265, 101);
+            this.label1.Location = new System.Drawing.Point(177, 66);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(60, 20);
+            this.label1.Size = new System.Drawing.Size(40, 13);
             this.label1.TabIndex = 5;
             this.label1.Text = "Estado";
             // 
@@ -88,23 +92,25 @@
             // 
             this.cmbEstado.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbEstado.FormattingEnabled = true;
-            this.cmbEstado.Location = new System.Drawing.Point(349, 93);
+            this.cmbEstado.Location = new System.Drawing.Point(233, 60);
+            this.cmbEstado.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cmbEstado.Name = "cmbEstado";
-            this.cmbEstado.Size = new System.Drawing.Size(121, 28);
+            this.cmbEstado.Size = new System.Drawing.Size(82, 21);
             this.cmbEstado.TabIndex = 4;
             // 
             // numCapacidad
             // 
             this.numCapacidad.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.numCapacidad.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.numCapacidad.Location = new System.Drawing.Point(125, 95);
+            this.numCapacidad.Location = new System.Drawing.Point(83, 62);
+            this.numCapacidad.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.numCapacidad.Minimum = new decimal(new int[] {
             1,
             0,
             0,
             0});
             this.numCapacidad.Name = "numCapacidad";
-            this.numCapacidad.Size = new System.Drawing.Size(120, 26);
+            this.numCapacidad.Size = new System.Drawing.Size(80, 20);
             this.numCapacidad.TabIndex = 3;
             this.numCapacidad.Value = new decimal(new int[] {
             20,
@@ -115,34 +121,38 @@
             // LblCapacidad
             // 
             this.LblCapacidad.AutoSize = true;
-            this.LblCapacidad.Location = new System.Drawing.Point(24, 95);
+            this.LblCapacidad.Location = new System.Drawing.Point(16, 62);
+            this.LblCapacidad.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LblCapacidad.Name = "LblCapacidad";
-            this.LblCapacidad.Size = new System.Drawing.Size(85, 20);
+            this.LblCapacidad.Size = new System.Drawing.Size(58, 13);
             this.LblCapacidad.TabIndex = 2;
             this.LblCapacidad.Text = "Capacidad";
             // 
             // txtNombre
             // 
             this.txtNombre.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtNombre.Location = new System.Drawing.Point(125, 37);
+            this.txtNombre.Location = new System.Drawing.Point(83, 24);
+            this.txtNombre.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(120, 26);
+            this.txtNombre.Size = new System.Drawing.Size(81, 20);
             this.txtNombre.TabIndex = 1;
             // 
             // LblNombre
             // 
             this.LblNombre.AutoSize = true;
-            this.LblNombre.Location = new System.Drawing.Point(24, 37);
+            this.LblNombre.Location = new System.Drawing.Point(16, 24);
+            this.LblNombre.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LblNombre.Name = "LblNombre";
-            this.LblNombre.Size = new System.Drawing.Size(65, 20);
+            this.LblNombre.Size = new System.Drawing.Size(44, 13);
             this.LblNombre.TabIndex = 0;
             this.LblNombre.Text = "Nombre";
             // 
             // btnGuardar
             // 
-            this.btnGuardar.Location = new System.Drawing.Point(27, 39);
+            this.btnGuardar.Location = new System.Drawing.Point(18, 25);
+            this.btnGuardar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.Size = new System.Drawing.Size(89, 46);
+            this.btnGuardar.Size = new System.Drawing.Size(59, 30);
             this.btnGuardar.TabIndex = 2;
             this.btnGuardar.Text = "Guardar";
             this.btnGuardar.UseVisualStyleBackColor = true;
@@ -150,9 +160,10 @@
             // 
             // btnModificar
             // 
-            this.btnModificar.Location = new System.Drawing.Point(122, 39);
+            this.btnModificar.Location = new System.Drawing.Point(104, 25);
+            this.btnModificar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnModificar.Name = "btnModificar";
-            this.btnModificar.Size = new System.Drawing.Size(89, 46);
+            this.btnModificar.Size = new System.Drawing.Size(59, 30);
             this.btnModificar.TabIndex = 3;
             this.btnModificar.Text = "Modificar";
             this.btnModificar.UseVisualStyleBackColor = true;
@@ -160,9 +171,10 @@
             // 
             // btnEliminar
             // 
-            this.btnEliminar.Location = new System.Drawing.Point(122, 91);
+            this.btnEliminar.Location = new System.Drawing.Point(104, 59);
+            this.btnEliminar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(89, 46);
+            this.btnEliminar.Size = new System.Drawing.Size(59, 30);
             this.btnEliminar.TabIndex = 4;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = true;
@@ -170,9 +182,10 @@
             // 
             // btnLimpiar
             // 
-            this.btnLimpiar.Location = new System.Drawing.Point(27, 91);
+            this.btnLimpiar.Location = new System.Drawing.Point(18, 59);
+            this.btnLimpiar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnLimpiar.Name = "btnLimpiar";
-            this.btnLimpiar.Size = new System.Drawing.Size(89, 46);
+            this.btnLimpiar.Size = new System.Drawing.Size(59, 30);
             this.btnLimpiar.TabIndex = 5;
             this.btnLimpiar.Text = "Limpiar";
             this.btnLimpiar.UseVisualStyleBackColor = true;
@@ -183,13 +196,14 @@
             this.dgvLaboratorios.AllowUserToAddRows = false;
             this.dgvLaboratorios.BackgroundColor = System.Drawing.SystemColors.ControlDark;
             this.dgvLaboratorios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvLaboratorios.Location = new System.Drawing.Point(12, 238);
+            this.dgvLaboratorios.Location = new System.Drawing.Point(8, 155);
+            this.dgvLaboratorios.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dgvLaboratorios.Name = "dgvLaboratorios";
             this.dgvLaboratorios.ReadOnly = true;
             this.dgvLaboratorios.RowHeadersWidth = 62;
             this.dgvLaboratorios.RowTemplate.Height = 28;
             this.dgvLaboratorios.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvLaboratorios.Size = new System.Drawing.Size(766, 187);
+            this.dgvLaboratorios.Size = new System.Drawing.Size(600, 122);
             this.dgvLaboratorios.TabIndex = 6;
             // 
             // grpAcciones
@@ -199,24 +213,27 @@
             this.grpAcciones.Controls.Add(this.btnModificar);
             this.grpAcciones.Controls.Add(this.btnEliminar);
             this.grpAcciones.Controls.Add(this.btnLimpiar);
-            this.grpAcciones.Location = new System.Drawing.Point(529, 56);
+            this.grpAcciones.Location = new System.Drawing.Point(353, 36);
+            this.grpAcciones.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.grpAcciones.Name = "grpAcciones";
-            this.grpAcciones.Size = new System.Drawing.Size(249, 162);
+            this.grpAcciones.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grpAcciones.Size = new System.Drawing.Size(255, 105);
             this.grpAcciones.TabIndex = 7;
             this.grpAcciones.TabStop = false;
             this.grpAcciones.Text = "Acciones";
             // 
             // FrmLaboratorios
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(619, 292);
             this.Controls.Add(this.grpAcciones);
             this.Controls.Add(this.dgvLaboratorios);
             this.Controls.Add(this.grpDatos);
             this.Controls.Add(this.lblTitulo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MaximizeBox = false;
             this.Name = "FrmLaboratorios";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

@@ -53,7 +53,7 @@
             this.lblTitulo.AutoSize = true;
             this.lblTitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.lblTitulo.ForeColor = System.Drawing.Color.DarkBlue;
-            this.lblTitulo.Location = new System.Drawing.Point(31, 14);
+            this.lblTitulo.Location = new System.Drawing.Point(5, 9);
             this.lblTitulo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblTitulo.Name = "lblTitulo";
             this.lblTitulo.Size = new System.Drawing.Size(160, 13);
@@ -134,7 +134,7 @@
             this.txtNombre.Location = new System.Drawing.Point(83, 24);
             this.txtNombre.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(81, 20);
+            this.txtNombre.Size = new System.Drawing.Size(232, 20);
             this.txtNombre.TabIndex = 1;
             // 
             // LblNombre
@@ -171,7 +171,7 @@
             // 
             // btnEliminar
             // 
-            this.btnEliminar.Location = new System.Drawing.Point(192, 59);
+            this.btnEliminar.Location = new System.Drawing.Point(104, 62);
             this.btnEliminar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(59, 30);
